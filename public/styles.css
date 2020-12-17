@@ -57,7 +57,7 @@ body {
 .try-it-button {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(41, 40, 40);
+  background-color: rgba(52, 51, 51, 0.5);
 }
 
 /* .selected {
@@ -90,7 +90,7 @@ body {
 .try-it {
   display: flex;
   justify-content: center;
-  color: #e9e5e5;;
+  color: white;
   font-weight: 700;
   font-size: 20px;
   margin-left: -440px;
