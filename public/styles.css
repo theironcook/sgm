@@ -2,6 +2,24 @@ body {
   font-family: 'Nunito Sans', 'Avenir';
 }
 
+@media (max-width: 1230px) {
+  .big-menu {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 1230px) {
+  .big-menu {
+    display: block;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
 .main-top-container {
   display: flex;
   justify-content: center;
